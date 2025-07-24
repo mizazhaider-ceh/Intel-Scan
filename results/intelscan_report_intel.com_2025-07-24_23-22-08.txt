@@ -1,0 +1,574 @@
+================================================================================
+ IntelScan Intelligence Report
+================================================================================
+Target Domain:    intel.com
+Report Generated: 2025-07-24_23-22-08
+================================================================================
+
+---[ DNS Records ]---
+
+[ A ]
+  -> 13.91.95.74
+
+[ MX ]
+  -> 100 mgamail.eglb.intel.com.
+
+[ NS ]
+  -> ns4.intel.com.
+  -> ns3.intel.com.
+  -> ns1.intel.com.
+  -> ns2.intel.com.
+
+[ SOA ]
+  -> ns1.intel.com. hostmaster.intel.com. 136893 43200 300 1209600 900
+
+[ TXT ]
+  -> "09/10/2024"
+  -> "google-site-verification=pIbeNdxnfMeMUhiz7Ad6UlkU08jIlagr9h55GoQSw6I"
+  -> "openai-domain-verification=dv-2wMjOw2i8o6W1d2QxgxAvV8k"
+  -> "qqmail-site-verification=de1a8d707315b7e0442efe7a2812e10457a771ccdeb"
+  -> "onetrust-domain-verification=ee0aec8e25a047c185d8fff907e052c2"
+  -> "mongodb-site-verification=p6n0w6nnOPjCeuCnsW0Xc4UgAh4jfMHo"
+  -> "v=spf1 include:_spf.intel.com -all"
+  -> "docusign=46a68707-4a57-4782-bf77-1373777e73e8"
+  -> "docker-verification=6e64c5c8-0cb8-4284-9f6e-dc63262b0d93"
+  -> "cloudhealth=1659ead7-5c47-4817-a0d3-94b456169734"
+  -> "apple-domain-verification=OAQrNBk5trF8X7H3"
+  -> "uber-domain-verification=233c950b-1660-447a-a8bc-a0bb20559c05"
+  -> "docusign=ff4d259b-5b2b-4dc7-84e5-34dc2c13e83e"
+  -> "slack-domain-verification=1Cz4MCZJuypQf1rh9T3qlqJDFCRYuqZkrOUh5kL4"
+  -> "08428d8e-d6dd-4d4f-acca-42955adb18cf"
+  -> "I+FotdhF45rEb5bSOZyqcRNYMIuqDOEcWLtvZ8cb5RKf4p2v+6laazMU1bT8dq88ia98W9aUKYirlD7+tv0Z/A=="
+  -> "e94b687f1bd60e6d49bee301361913c22b1aaf63beb963f10826f8472fced7f1"
+  -> "onetrust-domain-verification=da03b7174c53436587dd407887778160"
+  -> "google-site-verification=tCdhchtzK9L-sDZA5OazdRCeK5HrqgOJ9kZkzdbtmd8"
+  -> "google-site-verification=xQ71LIpBIRMAhe6YyAjaNEeqOHF6VOCCLJD-xBsnwtU"
+  -> "chariot=chariot+intel@praetorian.com"
+  -> "ms-domain-verification=63e408c2-11b8-4d5f-939c-d71b7d7e3d91"
+  -> "f076027a-8022-4cd7-9c52-373ef56f9848"
+  -> "MS=B03F616C5688CE657CC2FA94EF4E72109431092B"
+  -> "google-site-verification=HZCQBwMXW2bQcmIUCMcxovy1yMxkEcu1mGA2spyLARo"
+  -> "Dynatrace-site-verification=03bc0e9d-4899-45bc-8fb6-963829cd5cf1__m1rmdc12bet67grogkur4kat1r"
+  -> "Dynatrace-site-verification=e1eb3fe5-f14a-4a0c-b8b6-1c5f380cb804__dfadqbk4o2ngu8n8bho3kom0t"
+  -> "atlassian-domain-verification=ZOexs0awZv94sBIlIBoxjhW8lXHZ24atEWqaXZtHXJyUNyrJRFD2TUyajwtz1pL1"
+  -> "autodesk-domain-verification=EKQ8nv86UxiJDM9bI18R"
+  -> "google-site-verification=33gwj8vJs6_J5adGCJ3IWWAm5C4MeM-ZUy5uzNIEX4s"
+  -> "adobe-idp-site-verification=12d5bea8-aab4-4b2e-9c77-8f69ad4734f0"
+  -> "atlassian-domain-verification=dfPURS8tP5ncA5xHnEv8nyfRQZzwLH6RRKWNXRHLwny6EBpmC7pwMz1xFLmi/EWH"
+  -> "fastly-domain-delegation-RIA8ruNVQ8qqxgwlPyD3-485843-2022-27-04"
+  -> "google-site-verification=pv06NhezCJEfqLpFMO8YKqC6Ye1q85TiFq_S5qUUdxE"
+  -> "meltwater_sso_20240930"
+  -> ""
+  -> "onetrust-domain-verification=09f55ff1baba439b9174d37afefcaf2d"
+  -> "ibmid=b4542555-fac2-4d7d-a8ad-f4d3ee20ba22"
+  -> "bcd9860a-1369-4d5c-ae5e-e9320d79f083"
+  -> "google-site-verification=_BVjdlNMi517YkaWfQ8SOCUxjGyrK4X4tkMeCqieedQ"
+
+---[ WHOIS Information ]---
+
+Domain:                   intel.com
+Text:                        Domain Name: INTEL.COM
+   Registry Domain ID: 3568984_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2023-09-14T14:00:05Z
+   Creation Date: 1986-03-25T05:00:00Z
+   Registry Expiry Date: 2026-03-26T04:00:00Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2086851750
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.INTEL.COM
+   Name Server: NS2.INTEL.COM
+   Name Server: NS3.INTEL.COM
+   Name Server: NS4.INTEL.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2025-07-24T18:16:46Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: intel.com
+Registry Domain ID: 3568984_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-08-02T02:17:33+0000
+Creation Date: 1986-03-25T05:00:00+0000
+Registrar Registration Expiration Date: 2026-03-26T04:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Name: Domain Administrator
+Registrant Organization: Intel Corporation
+Registrant Street: 2200 Mission College Blvd, RNB-4-151
+Registrant City: Santa Clara
+Registrant State/Province: CA
+Registrant Postal Code: 95054
+Registrant Country: US
+Registrant Phone: +1.4087658080
+Registrant Phone Ext: 
+Registrant Fax: +1.4087656071
+Registrant Fax Ext: 
+Registrant Email: domainadmin@intel.com
+Tech Name: Domain Administrator
+Tech Phone: +1.4087658080
+Tech Email: hostmaster@intel.com
+Name Server: ns4.intel.com
+Name Server: ns1.intel.com
+Name Server: ns2.intel.com
+Name Server: ns3.intel.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2025-07-24T18:16:44+0000 <<<
+
+For more information on WHOIS status codes, please visit:
+  https://www.icann.org/resources/pages/epp-status-codes
+
+If you wish to contact this domain’s Registrant or Technical
+contact, and such email address is not visible above, you may do so via our web
+form, pursuant to ICANN’s Temporary Specification. To verify that you are not a
+robot, please enter your email address to receive a link to a page that
+facilitates email communication with the relevant contact(s).
+
+Web-based WHOIS:
+  https://domains.markmonitor.com/whois/contact/intel.com
+
+If you have a legitimate interest in viewing the non-public WHOIS details, send
+your request and the reasons for your request to whoisrequest@markmonitor.com
+and specify the domain name in the subject line. We will review that request and
+may ask for supporting documentation and explanation.
+
+The data in MarkMonitor’s WHOIS database is provided for information purposes,
+and to assist persons in obtaining information about or related to a domain
+name’s registration record. While MarkMonitor believes the data to be accurate,
+the data is provided "as is" with no guarantee or warranties regarding its
+accuracy.
+
+By submitting a WHOIS query, you agree that you will use this data only for
+lawful purposes and that, under no circumstances will you use this data to:
+  (1) allow, enable, or otherwise support the transmission by email, telephone,
+or facsimile of mass, unsolicited, commercial advertising, or spam; or
+  (2) enable high volume, automated, or electronic processes that send queries,
+data, or email to MarkMonitor (or its systems) or the domain name contacts (or
+its systems).
+
+MarkMonitor reserves the right to modify these terms at any time.
+
+By submitting this query, you agree to abide by this policy.
+
+MarkMonitor Domain Management(TM)
+Protecting companies and consumers in a digital world.
+
+Visit MarkMonitor at https://www.markmonitor.com
+Contact us at +1.8007459229
+In Europe, at +44.02032062220
+----
+
+
+---[ Found Subdomains ]---
+
+IP Address: 10.124.3.16
+  -> pt.intel.com
+
+IP Address: 100.24.157.224
+  -> learning.intel.com
+
+IP Address: 104.16.92.80
+  -> connect.intel.com
+
+IP Address: 104.16.93.80
+  -> connect-dev.intel.com
+
+IP Address: 104.42.44.168
+  -> conf.intel.com
+
+IP Address: 108.139.60.4
+  -> download.intel.com
+
+IP Address: 108.139.79.127
+  -> staging.cloud.intel.com
+
+IP Address: 108.139.79.18
+  -> console.cloud.intel.com
+
+IP Address: 108.139.79.40
+  -> game.intel.com
+
+IP Address: 111.119.161.146
+  -> pki.intel.com
+
+IP Address: 111.119.161.147
+  -> certificates.intel.com
+
+IP Address: 13.107.246.63
+  -> consumer.intel.com
+
+IP Address: 13.126.23.67
+  -> paris.intel.com
+  -> partner.intel.com
+  -> partners.intel.com
+
+IP Address: 13.126.23.68
+  -> partnercenter.intel.com
+
+IP Address: 13.126.23.69
+  -> licensing.intel.com
+
+IP Address: 13.67.15.129
+  -> enterpriseenrollment.intel.com
+
+IP Address: 13.91.95.74
+  -> arc.intel.com
+  -> blogs.intel.com
+  -> communities.intel.com
+  -> configurator.intel.com
+  -> designcenter.intel.com
+  -> developer.intel.com
+  -> downloadcenter.intel.com
+  -> embedded.communities.intel.com
+  -> engage.intel.com
+  -> event.intel.com
+  -> execstudios.intel.com
+  -> gamerdays-norway.intel.com
+  -> gamerdays.intel.com
+  -> jobs.intel.com
+  -> learn.intel.com
+  -> msp.intel.com
+  -> open.intel.com
+  -> plan.intel.com
+  -> premier.intel.com
+  -> rdc.intel.com
+  -> returns.intel.com
+  -> search.intel.com
+  -> solutions.intel.com
+  -> support.intel.com
+  -> swdevcon.intel.com
+  -> techdecoded.intel.com
+  -> test-www.intel.com
+  -> thailand.gamerdays.intel.com
+  -> thailand.intel.com
+  -> webinar.intel.com
+  -> www-ssl.intel.com
+  -> www.ai.intel.com
+  -> www3.intel.com
+
+IP Address: 134.134.139.12
+  -> connector.intel.com
+
+IP Address: 134.191.190.35
+  -> ns2.intel.com
+
+IP Address: 141.193.213.21
+  -> newsroom.intel.com
+  -> pressroom.intel.com
+
+IP Address: 143.182.2.194
+  -> pss.intel.com
+
+IP Address: 143.183.152.1
+  -> charon.intel.com
+
+IP Address: 143.183.152.11
+  -> argo.intel.com
+
+IP Address: 146.152.186.7
+  -> cloud.intel.com
+
+IP Address: 146.152.205.100
+  -> sdp.intel.com
+
+IP Address: 146.152.205.21
+  -> remote.intel.com
+
+IP Address: 146.152.230.12
+  -> py.intel.com
+
+IP Address: 160.34.0.153
+  -> socialmedia.intel.com
+
+IP Address: 161.129.72.21
+  -> share.intel.com
+
+IP Address: 172.64.149.23
+  -> ocsp.intel.com
+
+IP Address: 18.208.39.163
+  -> partneruniversity.intel.com
+
+IP Address: 192.102.198.240
+  -> ns4.intel.com
+
+IP Address: 192.198.144.59
+  -> jira.intel.com
+
+IP Address: 192.198.144.63
+  -> goto.intel.com
+
+IP Address: 192.198.148.13
+  -> ns3.intel.com
+
+IP Address: 192.198.160.67
+  -> pvp.intel.com
+
+IP Address: 192.198.160.99
+  -> syncapi.intel.com
+
+IP Address: 192.198.163.75
+  -> mta.intel.com
+
+IP Address: 192.198.164.115
+  -> insite.intel.com
+
+IP Address: 192.198.164.116
+  -> ssl.intel.com
+
+IP Address: 192.198.164.158
+  -> kids.intel.com
+  -> www-origin.intel.com
+
+IP Address: 192.198.164.205
+  -> electron.intel.com
+
+IP Address: 192.198.164.223
+  -> itjira.intel.com
+
+IP Address: 192.198.164.254
+  -> supplier.intel.com
+
+IP Address: 192.198.164.31
+  -> federation.intel.com
+
+IP Address: 192.198.164.32
+  -> edc.intel.com
+
+IP Address: 192.198.164.54
+  -> isearch.intel.com
+
+IP Address: 192.198.164.79
+  -> lyncweb.intel.com
+
+IP Address: 192.198.164.82
+  -> ftp.intel.com
+
+IP Address: 192.198.165.144
+  -> autodiscover.intel.com
+
+IP Address: 192.198.165.15
+  -> webquote.intel.com
+
+IP Address: 192.198.165.160
+  -> passwordreset.intel.com
+
+IP Address: 192.198.165.191
+  -> cedar.intel.com
+  -> core.intel.com
+  -> employeeportal.intel.com
+  -> fonts.intel.com
+  -> foundry.intel.com
+  -> ics.intel.com
+  -> mysearch.intel.com
+  -> program.intel.com
+  -> soporte.intel.com
+  -> suporte.intel.com
+  -> symphony.intel.com
+  -> video.intel.com
+  -> videos.intel.com
+  -> wap.intel.com
+  -> weare.intel.com
+  -> www.support.intel.com
+  -> xml.intel.com
+
+IP Address: 192.198.165.195
+  -> sitemap.intel.com
+
+IP Address: 192.198.165.31
+  -> cpm.intel.com
+
+IP Address: 192.198.165.74
+  -> dms.intel.com
+
+IP Address: 192.198.165.83
+  -> ideas.intel.com
+
+IP Address: 192.198.166.11
+  -> ftptest.intel.com
+
+IP Address: 192.198.167.40
+  -> staging2.intel.com
+
+IP Address: 192.55.52.33
+  -> ns.intel.com
+  -> ns1.intel.com
+
+IP Address: 192.55.79.150
+  -> myaccess.intel.com
+
+IP Address: 198.175.96.119
+  -> www.search.intel.com
+
+IP Address: 198.175.96.149
+  -> eval.intel.com
+
+IP Address: 198.175.96.183
+  -> academy.intel.com
+  -> advisors.intel.com
+  -> design.intel.com
+  -> galileo.intel.com
+  -> kenya.intel.com
+  -> locations.intel.com
+  -> m.intel.com
+  -> oss.intel.com
+  -> security.intel.com
+  -> smallbusiness.intel.com
+  -> social.intel.com
+  -> syndication.intel.com
+  -> university.intel.com
+  -> webrtc.intel.com
+
+IP Address: 198.175.96.232
+  -> sipfed.intel.com
+
+IP Address: 198.175.96.236
+  -> channel.intel.com
+
+IP Address: 198.175.96.53
+  -> content.intel.com
+
+IP Address: 198.175.96.64
+  -> peach.intel.com
+
+IP Address: 198.175.96.77
+  -> bod.intel.com
+
+IP Address: 198.175.98.165
+  -> webhooks.intel.com
+
+IP Address: 20.190.147.36
+  -> enterpriseregistration.intel.com
+
+IP Address: 20.45.1.46
+  -> career.intel.com
+
+IP Address: 20.75.241.79
+  -> orders.intel.com
+
+IP Address: 207.108.8.56
+  -> testbed.intel.com
+
+IP Address: 23.203.204.232
+  -> ai.intel.com
+  -> api.intel.com
+  -> developers.intel.com
+  -> digitallibrary-stg.intel.com
+  -> digitallibrary.intel.com
+  -> downloads.intel.com
+  -> failover.intel.com
+  -> locate.intel.com
+  -> login.intel.com
+  -> marketplace.intel.com
+  -> realsense.intel.com
+  -> signin.intel.com
+  -> software.intel.com
+  -> www-staging.intel.com
+  -> www.intel.com
+
+IP Address: 23.217.153.218
+  -> apt.repos.intel.com
+  -> cache.api.intel.com
+  -> installer.repos.intel.com
+  -> parcels.repos.intel.com
+  -> software.repos.intel.com
+  -> www.thailand.intel.com
+  -> yum.repos.intel.com
+
+IP Address: 23.57.74.64
+  -> image.newsletter.intel.com
+
+IP Address: 3.160.132.106
+  -> community-stage.intel.com
+
+IP Address: 3.160.132.11
+  -> forums.intel.com
+
+IP Address: 3.160.132.112
+  -> upgrade.intel.com
+
+IP Address: 3.160.132.4
+  -> community.intel.com
+
+IP Address: 3.160.132.52
+  -> upgrades.intel.com
+
+IP Address: 3.230.34.87
+  -> ondemand.intel.com
+
+IP Address: 35.164.238.103
+  -> telemetry.intel.com
+
+IP Address: 35.247.155.121
+  -> api-portal.intel.com
+  -> apis-stage.intel.com
+  -> apis.intel.com
+  -> axon.intel.com
+
+IP Address: 35.82.101.6
+  -> pim.intel.com
+
+IP Address: 44.237.152.170
+  -> timeline.intel.com
+
+IP Address: 54.157.97.24
+  -> ias.intel.com
+
+IP Address: 54.215.224.221
+  -> assets.intel.com
+
+IP Address: 76.223.20.101
+  -> connected.intel.com
+
