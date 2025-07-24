@@ -120,7 +120,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👨‍💻 About the Author
 
-**Muhammad Izaz Haider**Passionate, self-taught cybersecurity professional focused on Offensive Security, AI in Cybersecurity, and building practical, high-impact security tools.
+**Muhammad Izaz Haider**
+
+Passionate, self-taught cybersecurity professional focused on Offensive Security, AI in Cybersecurity, and building practical, high-impact security tools.
 
 - **LinkedIn:** [linkedin.com/in/muhammad-izaz-haider-091639314](https://www.linkedin.com/in/muhammad-izaz-haider-091639314/)
 - **Portfolio:** [mizazhaider-ceh.github.io/My-Portfolio/](https://mizazhaider-ceh.github.io/My-Portfolio/)
