@@ -30,7 +30,7 @@
 
 See Intel-Scan in action:
 
-![Intel-Scan Demo](https://raw.githubusercontent.com/MizazHaider-CEH/My-Portfolio/main/assets/img/intel-scan-demo.gif)
+![Intel-Scan Demo](https://www.linkedin.com/posts/muhammad-izaz-haider-091639314_alhamdulillah-built-%F0%9D%97%9C%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%BB-activity-7354369778259550208-SZ8X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE_T-C0BSzkVPAgz4Tm4DP5NBcgGPmL8Jhw)
 
 ## 🛠️ Installation & Setup
 
