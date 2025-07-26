@@ -35,7 +35,7 @@
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/Intel-Scan.git
+git clone https://github.com/mizazhaider-ceh/Intel-Scan.git
 cd Intel-Scan
 ```
 
