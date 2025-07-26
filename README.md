@@ -1,4 +1,4 @@
-# 🔥 Intel-Scan: The Ultimate Reconnaissance Framework 🕵️‍♂️
+# 🔥Intel-Scan: The Ultimate Reconnaissance Framework🕵️‍♂️
 
 <p align="center">
   <img src="assets/intelscan.gif" alt="Intel-Scan Banner" />
