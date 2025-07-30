@@ -107,7 +107,7 @@ Intel-Scan/
 │   └── logic.py        # Contains all backend functions.
 │
 ├── data/               # Contains data files, like wordlists for scanning.
-│
+│── assets/             # Contains images used in README.md
 ├── intelscan_cli.py    # (Interface 1) The command-line interface.
 ├── intelscan_gui.py    # (Interface 2) The graphical user interface.
 │
