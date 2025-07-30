@@ -1,0 +1,15 @@
+# requirements.txt
+# This file lists the direct, essential dependencies for the Intel-Scan Pro project.
+# Pip will automatically handle installing any sub-dependencies.
+
+# --- Core Logic Libraries (Used by both CLI & GUI) ---
+dnspython
+python-whois
+
+# --- CLI Interface Library ---
+rich
+tqdm
+
+# --- GUI Interface & Reporting Libraries ---
+gradio
+pandas

@@ -1,130 +1,209 @@
-# 🔥Intel-Scan: The Ultimate Reconnaissance Framework🕵️‍♂️
+<div align="center">
+  <img src="assets/banner.png" alt="Intel-Scan  Banner" width="700"/>
+  <h1>Intel-Scan</h1>
+  <strong>Built by Muhammad Izaz Haider</strong>
+  <p>From a lightning-fast CLI to an intuitive GUI, Intel-Scan is a complete reconnaissance solution built for modern cybersecurity professionals.</p>
 
-<p align="center">
-  <img src="assets/intelscan.gif" alt="Intel-Scan Banner" />
-</p>
-
-> **Intel-Scan** is an elegant, powerful, and blazing-fast reconnaissance tool for cybersecurity professionals and ethical hackers. It provides a comprehensive suite of intelligence-gathering modules within a beautiful and interactive terminal UI, powered by the Rich library.
->
-> ![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)
-> ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-> ![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)
-> [![Connect on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/muhammad-izaz-haider-091639314/)
+<p>
+    <a href="https://github.com/mizazhaider-ceh/Intel-Scan/stargazers"><img src="https://img.shields.io/github/stars/mizazhaider-ceh/Intel-Scan?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
+    <a href="https://github.com/mizazhaider-ceh/Intel-Scan/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mizazhaider-ceh/Intel-Scan?style=for-the-badge&color=blue" alt="License"></a>
+    <a href="https://github.com/mizazhaider-ceh/Intel-Scan/issues"><img src="https://img.shields.io/github/issues/mizazhaider-ceh/Intel-Scan?style=for-the-badge&logo=github&color=green" alt="Issues"></a>
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-blue.svg?style=for-the-badge&logo=python" alt="Made with Python"></a>
+  </p>
+</div>
 
 ---
 
-![Intel-Scan Banner](assets/banner.png)
+## 📖 Table of Contents
 
-## ✨ Key Features
+- [The Vision: More Than Just a Tool](#-the-vision-more-than-just-a-tool)
+- [Core Features](#-core-features)
+- [The Dual-Interface Philosophy](#-the-dual-interface-philosophy)
+  - [The Graphical User Interface (GUI)](#-the-graphical-user-interface-gui)
+  - [The Command-Line Interface (CLI)](#-the-command-line-interface-cli)
+- [Technical Deep Dive](#-technical-deep-dive)
+  - [Project Architecture](#-project-architecture)
+  - [Technology Stack](#-technology-stack)
+- [Installation &amp; Setup Guide](#-installation--setup-guide)
+- [Usage Instructions](#-usage-instructions)
+- [Contributing to the Project](#-contributing-to-the-project)
+- [License](#-license)
+- [About the Author](#-about-the-author)
 
-* **🌐 Comprehensive DNS Enumeration:** **Fetches all critical DNS records (**A**,** **AAAA**, **MX**, **TXT**, **NS**, **SOA**, **CNAME**).
-* **👤 Detailed WHOIS Lookups:** **Retrieves extensive WHOIS information, including registrar details, creation dates, and contact information.**
-* **⚡** **High-Performance Subdomain Scanning:**
+---
 
-  * **Brute-forces over** **35,000+ potential subdomains** **using a curated, high-quality wordlist.**
-  * **Features user-selectable speed tiers:** **Normal (50 threads), Fast (100 threads), and Insane (150 threads)** **to match your needs and network conditions.**
-* **📈 Advanced Interactive Framework:** **A persistent menu allows you to run different scans, change targets, and save results without ever restarting the tool.**
-* **💾 Centralized Reporting:** **Compiles all collected intelligence (DNS, WHOIS, Subdomains) into a single, clean, and timestamped report for easy analysis.**
+## 🎯 The Vision: More Than Just a Tool
 
-## 🚀 Live Demo
+In the world of cybersecurity, reconnaissance is the critical first step. Yet, analysts often find themselves juggling multiple terminals, running separate scripts for DNS, WHOIS, and subdomain enumeration. The process is fragmented and inefficient.
 
-- **Watch On Linkedin:**        [Watch](https://www.linkedin.com/posts/muhammad-izaz-haider-091639314_alhamdulillah-built-%F0%9D%97%9C%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%BB-activity-7354369778259550208-SZ8X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE_T-C0BSzkVPAgz4Tm4DP5NBcgGPmL8Jhw)
+**Intel-Scan was born from a simple vision:** to unify these essential OSINT tasks into a single, cohesive, and elegant framework.
 
-## 🛠️ Installation & Setup
+This project began as a powerful **Command-Line Interface (CLI)**, optimized for speed and automation. But true power lies in accessibility. It then evolved, incorporating a full-featured **Graphical User Interface (GUI)** to make its robust engine available to everyone ... from seasoned pentesters to security analysts preparing client reports. This dual-interface approach ensures that no matter your workflow, Intel-Scan has you covered.
 
-**1. Clone the repository:**
+## ✨ Core Features
+
+| Feature                                       | Description                                                                                                                                      | Availability      |
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- |
+| **Comprehensive DNS Lookup**            | Fetches A, AAAA, MX, TXT, NS, SOA, and CNAME records, providing a complete picture of a domain's DNS posture.                                    | `CLI` & `GUI` |
+| **Detailed WHOIS Reports**              | Retrieves and parses extensive WHOIS information, including registrar details, creation/expiry dates, and full raw data.                         | `CLI` & `GUI` |
+| **High-Performance Subdomain Scanning** | Utilizes multithreading to rapidly discover thousands of active subdomains from a curated wordlist.                                              | `CLI` & `GUI` |
+| **Selectable Scan Speeds**              | Choose between Normal (50), Fast (100), and Insane (200) thread counts to balance speed with network stability.                                  | `CLI` & `GUI` |
+| **Interactive CLI Menu**                | A persistent,`rich`-powered terminal menu allows for continuous scanning without restarting the tool.                                          | `CLI`           |
+| **Visual Dashboard UI**                 | An intuitive `gradio`-powered web interface for easy, point-and-click analysis.                                                                | `GUI`           |
+| **Multi-Format Reporting**              | Export complete scan results as**TXT**, **JSON**, **Markdown** directly from the GUI for easy integration into your workflow. | `GUI`           |
+
+---
+
+## 🚀 The Dual-Interface Philosophy
+
+Intel-Scan is built on the belief that a great tool should adapt to the user, not the other way around.
+
+### 🌐 The Graphical User Interface (GUI)
+
+The GUI is the heart of visual analysis in Intel-Scan. It's designed for clarity, ease of use, and comprehensive reporting, making it perfect for in-depth investigations and preparing client-facing deliverables.
+
+<div align="center">
+  <img src="assets/gui.jpeg" alt="Intel-Scan GUI Screenshot" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" />
+</div>
+
+### ⌨️ The Command-Line Interface (CLI)
+
+The CLI is where it all began. It's built for speed, efficiency, and automation. For the power user who lives in the terminal, the CLI provides direct access to the scanning engine with a clean, interactive menu system powered by the `rich` library.
+
+<div align="center">
+  <img src="assets/cli.png" alt="Intel-Scan Banner" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);"/>
+</div>
+
+```
+$ python intelscan_cli.py
+
+🛡️ Intel-Scan 🛡️
+The Professional OSINT Discovery Tool (CLI)
+--------------------------------------------------
+Menu | Target: tesla.com
+--------------------------------------------------
+[1] General Lookup (DNS & WHOIS)
+[2] Subdomain Scan
+[S] Save All Results to File
+[C] Change Target
+[0] Exit
+Select an option:
+```
+
+---
+
+## 🛠️ Technical Deep Dive
+
+This project was built with professional software architecture principles to ensure it is maintainable, scalable, and efficient.
+
+### Project Architecture
+
+The application follows the **DRY (Don't Repeat Yourself)** principle by separating the core logic from the user interfaces. This ensures that any bug fix or improvement to the scanning engine is immediately available to both the CLI and GUI.
+
+```
+Intel-Scan/
+├── intel_scan_core/    # (The Engine) Shared logic for scanning, parsing, and reporting.
+│   ├── __init__.py     # Makes this directory a Python package.
+│   └── logic.py        # Contains all backend functions.
+│
+├── data/               # Contains data files, like wordlists for scanning.
+│
+├── intelscan_cli.py    # (Interface 1) The command-line interface.
+├── intelscan_gui.py    # (Interface 2) The graphical user interface.
+│
+├── requirements.txt    # A list of all Python dependencies for easy installation.
+└── README.md           # You are here!
+```
+
+### Technology Stack
+
+- **Backend & Core Logic:** Python 3
+- **CLI:** [Rich](https://github.com/Textualize/rich) for beautiful terminal UIs & [Typer](https://github.com/tiangolo/typer) (implicitly, via CLI structure).
+- **GUI:** [Gradio](https://github.com/gradio-app/gradio) for rapid web UI development.
+- **Core Libraries:** `dnspython`, `python-whois`, `pandas`.
+
+---
+
+## ⚙️ Installation & Setup Guide
+
+Get Intel-Scan running in minutes.
+
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/mizazhaider-ceh/Intel-Scan.git
 cd Intel-Scan
 ```
 
-**2. Create a virtual environment (recommended):**
+### Step 2: Set Up a Virtual Environment (Highly Recommended)
+
+This isolates the project's dependencies and avoids conflicts.
 
 ```bash
-# Windows
-python -m venv venv
-.\venv\Scripts\activate
+# On Windows:
+python -m venv venv && .\venv\Scripts\activate
 
-# macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+# On macOS/Linux:
+python3 -m venv venv && source venv/bin/activate
 ```
 
-**3. Install dependencies:**
+### Step 3: Install All Dependencies
+
+This command reads the `requirements.txt` file and installs every library needed for both the CLI and GUI.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Verify Directory Structure:**
+### Step 4: Add Your Data
 
-```
-Intel-Scan/
-│
-├── data/
-│   └── wordlists/
-│       └── common_subdomains.txt
-├── results/
-│   └── (Reports will be saved here)
-├── intel-scan.py
-├── requirements.txt
-└── README.md
-```
+- For subdomain scanning to work, place your wordlist file (e.g., `common_subdomains.txt`) inside the `data/wordlists/` directory.
 
-> The `common_subdomains.txt` file is essential for subdomain scanning.
+---
 
-## 🖥️ Usage
+## 🕹️ Usage Instructions
 
-To launch the tool:
+You can run Intel-Scan in two different modes.
+
+#### To Launch the GUI:
 
 ```bash
-python intel-scan.py
+python intelscan_gui.py
 ```
 
-**Interactive Menu Options:**
+> Open the local URL (e.g., `http://127.0.0.1:7860`) provided in your terminal in any web browser.
 
-![Intel-Scan Menu](assets/menu.png)
+#### To Launch the CLI:
 
-- **[1] General Intelligence Lookup:** DNS and WHOIS scans.
-- **[2] High-Speed Subdomain Scan:** Multi-threaded subdomain enumeration.
-- **[S] Save All Collected Results:** Save all gathered data for the current target.
-- **[C] Change Target Domain:** Switch to a new target without exiting.
-- **[0] Exit:** Gracefully exit the application.
+```bash
+python intelscan_cli.py
+```
 
-## 🏆 Why You'll Love It
+> The interactive menu will launch directly in your terminal.
 
-- **Instant Results:** No more waiting—get the data you need, when you need it.
-- **Zero Learning Curve:** Clean, intuitive interface—start scanning in seconds.
-- **Professional Reports:** Impress clients and teammates with clean, organized output.
-- **Open Source:** Fork, extend, and contribute—let’s make recon better together!
+---
 
-## 🤝 Contributing
+## 🤝 Contributing to the Project
 
-Contributions, issues, and feature requests are welcome!
-Check the [issues page](https://github.com/your-username/Intel-Scan/issues).
+This is an open-source project, and contributions are welcome! Whether it's a bug fix, a feature request, or a new module, feel free to get involved.
 
-**How to contribute:**
+1. **Fork** the repository.
+2. Create your **Feature Branch** (`git checkout -b feature/NewScanner`).
+3. **Commit** your changes (`git commit -m 'Add NewScanner module'`).
+4. **Push** to the branch (`git push origin feature/NewScanner`).
+5. Open a **Pull Request**.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
+Please check the [issues page](https://github.com/mizazhaider-ceh/Intel-Scan/issues) for ideas on what to work on.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is distributed under the MIT License. See the `LICENSE` file for more information.
 
 ## 👨‍💻 About the Author
 
 **Muhammad Izaz Haider**
 
-Passionate, self-taught cybersecurity professional focused on Offensive Security, AI in Cybersecurity, and building practical, high-impact security tools.
+A passionate cybersecurity professional focused on Offensive Security , Ai in Cybersecurity and building high-impact, practical security tools that bridge the gap between complex tasks and elegant user experiences.
 
-- **LinkedIn:**        [Connect](https://www.linkedin.com/in/muhammad-izaz-haider-091639314/)
-- **Portfolio:**        [View](https://mizazhaider-ceh.github.io/My-Portfolio/)
-
-> **Intel-Scan**: Because real hackers deserve real tools.
-
----
+- **LinkedIn:** [Connect with me!](https://www.linkedin.com/in/mizazhaider-ceh/)
+- **GitHub:** [View my other projects](https://github.com/mizazhaider-ceh)
