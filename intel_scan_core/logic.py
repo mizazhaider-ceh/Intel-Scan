@@ -16,6 +16,10 @@ import pandas as pd
 # --- Global Configurations ---
 # Configure the DNS resolver for all functions that use it
 resolver = dns.resolver.Resolver()
+if not resolver.nameservers:
+    # Minimal environments (e.g. containers with an empty resolv.conf)
+    # would fail every lookup, so fall back to public resolvers.
+    resolver.nameservers = ["1.1.1.1", "8.8.8.8"]
 resolver.timeout = 2.0
 resolver.lifetime = 5.0
 
@@ -23,16 +27,26 @@ resolver.lifetime = 5.0
 # --- Data Retrieval and Parsing Functions ---
 
 def sanitize_domain(domain_string: str) -> str:
-    """Cleans up the user-provided domain or URL to get the base domain."""
+    """Cleans up the user-provided domain or URL to get the base domain.
+
+    Strips scheme, userinfo, port, paths and a leading 'www.' so that
+    inputs like 'https://user:pw@www.example.com:8080/path' become
+    'example.com'.
+    """
     if not domain_string:
         return ""
+    domain_string = domain_string.strip()
     if not domain_string.startswith(('http://', 'https://')):
         domain_string = 'http://' + domain_string
     parsed = urlparse(domain_string)
-    domain = parsed.netloc or parsed.path
+    # hostname already drops userinfo and port, and lowercases
+    domain = parsed.hostname or parsed.path
+    if not domain:
+        return ""
+    domain = domain.strip().lower()
     if domain.startswith('www.'):
         domain = domain[4:]
-    return domain.split('/')[0]
+    return domain.rstrip('.')
 
 def get_dns_records(domain: str) -> dict | None:
     """Queries for common DNS records and returns them as a dictionary."""

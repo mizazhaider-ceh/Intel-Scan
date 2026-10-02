@@ -118,7 +118,7 @@ Intel-Scan/
 ### Technology Stack
 
 - **Backend & Core Logic:** Python 3
-- **CLI:** [Rich](https://github.com/Textualize/rich) for beautiful terminal UIs & [Typer](https://github.com/tiangolo/typer) (implicitly, via CLI structure).
+- **CLI:** [Rich](https://github.com/Textualize/rich) for beautiful terminal UIs.
 - **GUI:** [Gradio](https://github.com/gradio-app/gradio) for rapid web UI development.
 - **Core Libraries:** `dnspython`, `python-whois`, `pandas`.
 
@@ -155,9 +155,16 @@ This command reads the `requirements.txt` file and installs every library needed
 pip install -r requirements.txt
 ```
 
-### Step 4: Add Your Data
+### Step 4: (Optional) Use Your Own Wordlist
 
-- For subdomain scanning to work, place your wordlist file (e.g., `common_subdomains.txt`) inside the `data/wordlists/` directory.
+A starter wordlist (`common_subdomains.txt`) is already included in `data/wordlists/`. To scan with your own list, just replace that file or point the scan at another one.
+
+## 🧪 Running the Tests
+
+```sh
+pip install pytest
+python -m pytest tests/ -v
+```
 
 ---
 

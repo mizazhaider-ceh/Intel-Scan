@@ -163,8 +163,12 @@ def main():
             if len(all_results) <= 1:
                 console.print("[yellow][!] No results collected yet to save.[/yellow]")
             else:
-                report_path = save_report(RESULTS_DIR, target_domain, all_results, 'TXT')
-                console.print(Panel(f"[bold green]✔ Report saved to [cyan]{report_path}[/cyan][/bold green]"))
+                console.print("[bold green][1][/bold green] TXT  [bold green][2][/bold green] JSON  [bold green][3][/bold green] Markdown")
+                fmt_choice = console.input("[bold bright_cyan]Select report format: [/bold bright_cyan]").strip()
+                fmt_map = {'1': 'TXT', '2': 'JSON', '3': 'Markdown'}
+                report_format = fmt_map.get(fmt_choice, 'TXT')
+                report_path = save_report(RESULTS_DIR, target_domain, all_results, report_format)
+                console.print(Panel(f"[bold green]\u2714 {report_format} report saved to [cyan]{report_path}[/cyan][/bold green]"))
 
         elif choice == 'C':
             console.rule("[bold yellow]Enter New Target Domain[/bold yellow]")

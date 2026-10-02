@@ -4,7 +4,6 @@
 # COMPATIBILITY: 'height' and 'row_count' parameters removed to support older Gradio versions.
 
 import os
-import datetime
 import gradio as gr
 import pandas as pd
 
@@ -80,11 +79,9 @@ def handle_generate_report(report_format, all_results_state):
     if not all_results_state or not domain:
         return None, "No results to save. Please run a scan first."
 
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = f"intelscan_report_{domain}_{timestamp}.{report_format.lower()}"
-    report_path = os.path.join(RESULTS_DIR, filename)
-
-    save_report(RESULTS_DIR, domain, all_results_state, report_format)
+    # save_report builds the timestamped filename itself; use the path it
+    # returns so the download link always points at the real file.
+    report_path = save_report(RESULTS_DIR, domain, all_results_state, report_format)
 
     return gr.update(value=report_path, visible=True), f"{report_format} report generated."
 

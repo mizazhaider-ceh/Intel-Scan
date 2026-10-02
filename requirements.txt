@@ -3,13 +3,12 @@
 # Pip will automatically handle installing any sub-dependencies.
 
 # --- Core Logic Libraries (Used by both CLI & GUI) ---
-dnspython
-python-whois
+dnspython>=2.0.0
+python-whois>=0.8.0
 
 # --- CLI Interface Library ---
-rich
-tqdm
+rich>=13.0.0
 
 # --- GUI Interface & Reporting Libraries ---
-gradio
-pandas
+gradio>=4.0.0
+pandas>=2.0.0
